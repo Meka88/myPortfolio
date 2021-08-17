@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    grid-template-columns: 700px 500px;
+}
+.col-sm-6 {
+    padding-left: 35px;
+    padding-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
