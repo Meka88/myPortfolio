@@ -17,6 +17,6 @@ a {
 li a:hover {
     background-color: #bcdbef;
 }
-h2 {
-    text-align: left;
+h4 {
+    float: left;
 }
