@@ -1,0 +1,24 @@
+.contact-container{
+    padding: 25px 50px;
+}
+a.social{
+    margin: 0.1rem;
+    transition: transfrom 250ms;
+    display: inline-block;
+}
+a.social:hover {
+    transform: translateY(-2px);
+}
+a.linkedIn {
+    color: #007bb6;
+}
+a.github {
+    color: black;
+}
+h2 {
+   text-align: center;
+   font-size: 25px;
+}
+h3 {
+    text-align: center;
+}

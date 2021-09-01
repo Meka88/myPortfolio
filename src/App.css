@@ -2,7 +2,10 @@
   text-align: center;
   /* background-color: #bdcbef; */
 }
-
+body {
+  position: relative;
+  min-height: 100vh;
+}
 
 
 
