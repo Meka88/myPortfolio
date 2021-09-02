@@ -10,6 +10,7 @@ export default function Contact() {
     return(
         <div className="contact-container">
             <h2>Get in touch</h2>
+            <h3>+1 (347) 944-8817</h3>
             <h3>Email me at mekabolzhirova@gmail.com</h3>
             <a href="https://www.linkedin.com/in/meerim-bolzhirova-4211b7219/"
                 className="linkedIn social">

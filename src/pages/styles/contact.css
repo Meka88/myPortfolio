@@ -5,6 +5,8 @@ a.social{
     margin: 0.1rem;
     transition: transfrom 250ms;
     display: inline-block;
+    padding-bottom: 180px;
+    padding-top: 50px;
 }
 a.social:hover {
     transform: translateY(-2px);

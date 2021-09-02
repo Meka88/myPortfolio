@@ -1,26 +1,13 @@
-import {useState } from 'react';
-import { Document, Page } from 'react-pdf';
-import pdfFile from './Resume.pdf';
+import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
+import pdfFile from './assets/resume.pdf';
+import './styles/pdf.css';
 
-const options = {
-    cMapUrl: 'cmaps/',
-    cMapPacked: true,
-  }
-
-export default function Pdf () {
-    const [numPages, setNumPages] = useState(null);
-    const [pageNumber, setPageNumber] = useState(1);
-
-    function onDocumentLoadSuccess({ numPages }) {
-        setNumPages(numPages);
-    }
-
-    return(
-        <div>
-            <Document file={pdfFile} options={options} onLoadSuccess={onDocumentLoadSuccess}>
-              <Page pageNumber={pageNumber} /> 
-            </Document>   
-            <p>Page {pageNumber} of {numPages}</p>        
+export default function Pdf() {
+    return (
+        <div className="pdfWrapper">
+        <Document file={pdfFile} style="justify-content: center">
+            <Page pageNumber={1} />
+        </Document>
         </div>
-    )
+    );
 }
