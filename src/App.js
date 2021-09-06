@@ -27,7 +27,7 @@ function App() {
         <Route path="/resume" component={Resume} />
       </Switch>
       </body>
-      < Footer />
+      <Footer />
       
       </div>
     </Router>

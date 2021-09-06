@@ -5,11 +5,11 @@ a.social{
     margin: 0.1rem;
     transition: transfrom 250ms;
     display: inline-block;
-    padding-bottom: 180px;
+    padding-bottom: 190px;
     padding-top: 50px;
 }
 a.social:hover {
-    transform: translateY(-2px);
+    transform: translateY(-4px);
 }
 a.linkedIn {
     color: #007bb6;
@@ -20,7 +20,9 @@ a.github {
 h2 {
    text-align: center;
    font-size: 25px;
+   color: rgb(8, 8, 8);
 }
 h3 {
     text-align: center;
+    color: rgb(7, 7, 7);
 }
