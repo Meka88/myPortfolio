@@ -1,4 +1,4 @@
-import React from 'react';
+import React  from 'react';
 import './styles/projects.css';
 import chat from './images/chat-it-out.png';
 import bookworms from './images/bookworms.png';
@@ -7,8 +7,8 @@ import chicagotour from './images/chicagotour.png';
 export default function Projects() {
     return(
         <div className="gallery-grid">
-            <figure className="galery-frame">
-                <a href="https://github.com/Meka88/chat-it-out">
+            <figure className="gallery-frame">
+                <a href="https://github.com/Meka88/chat-it-out" target="_blank">
                 <img className="gallery-img" src={chat} alt="chat" />
                 <figcaption>Chat-it-out</figcaption>
                 </a>
@@ -16,15 +16,15 @@ export default function Projects() {
                     and event-based communication 
                     between client side and the server. </p>
             </figure>
-            <figure className="galery-frame">
-                <a href="https://github.com/Meka88/chicago_tours">
+            <figure className="gallery-frame">
+                <a href="https://github.com/Meka88/chicago_tours" target="_blank">
                 <img className="gallery-img" src={chicagotour} alt="tour"/>
                 <figcaption>Chicago Tour</figcaption>
                 </a>
                 <p>A website about famous places in Chicago to explore. Created using React.js.</p>
             </figure>
-            <figure className="galery-frame">
-                <a href="https://github.com/Meka88/Bookworms">
+            <figure className="gallery-frame">
+                <a href="https://github.com/Meka88/Bookworms" target="_blank">
                 <img className="gallery-img" src={bookworms} alt="bookworms"/>
                 <figcaption>Bookworms</figcaption>
                 </a>
