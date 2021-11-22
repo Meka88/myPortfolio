@@ -9,25 +9,25 @@ export default function Navbar() {
       </h4>
       <ul>
         <li>
-          <a>
+          
           <NavLink className='nav-link' exact to="/contact">
            Contact
           </NavLink>
-          </a>
+          
         </li>
         <li>
-          <a>
+          
             <NavLink className='nav-link' exact to="/projects">
               Projects
             </NavLink>
-          </a>
+          
         </li>
         <li>
-          <a>
+          
             <NavLink className='nav-link' exact to="/resume">
               Resume
             </NavLink>
-          </a>
+          
         </li>
       </ul>
     </nav>
