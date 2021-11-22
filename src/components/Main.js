@@ -6,10 +6,11 @@ export default function Main() {
         <div className="container">
             <div className="row">
                 <div className="col-sm-6">
-                    Hi, my name is Meerim. I'm currently attending Full Stack Bootcamp 'Skyzone', based in Chicago. 
-                    I decided to take the leap and pursue a career in software engineering after 7 years working in geriatric homecare.
-                    Just graduating from this rigorous program, I'm looking for an opportunity as junior developer.   
-                    Here I have some of projects I worked on myself and my fellow students. 
+                    Hi, my name is Meerim. Creative Front-End Developer with 2 years of professional experience. 
+                    I have solid knowledge of JavaScript, React.js, Node.js and Express.js. 
+                    Firm believer in mobile-first approach and modern CSS techniques. 
+                    I like to take ownership of the product and be proactive in creating user-centered UI/UX. 
+                    Eager to face new challenges in a multi-tasking team. 
                 </div>
                 <div className="col-sm-6"></div>
             </div>
